@@ -1,0 +1,102 @@
+/* custom.css */
+body {
+    background-color: #E6E6FA; 
+}
+
+.navbar {
+    background-color: hsla(174, 68%, 35%, 0.9); 
+}
+
+.navbar-brand {
+    font-weight: bold;
+    color: #433946 !important; 
+}
+
+.nav-link {
+    color: #33063c !important; 
+    transition: color 0.3s ease-in-out;
+}
+
+.nav-link:hover {
+    color: #dedcd0 !important;
+}
+
+.btn-ver-mas, .btn-primary {
+    background-color: #40E0D0;
+    border-color: #40E0D0;
+    color: #fff;
+    transition: background-color 0.3s ease-in-out, border-color 0.3s ease-in-out;
+}
+
+.btn-ver-mas:hover, .btn-primary:hover {
+    background-color: #00796B; 
+    border-color: #004D40;
+    color: #FFD700;
+}
+
+.pagination .page-link {
+    color: #40E0D0; 
+    transition: color 0.3s ease-in-out, background-color 0.3s ease-in-out;
+}
+
+.pagination .page-item.active .page-link {
+    background-color: #40E0D0;
+    border-color: #40E0D0;
+    color: #fff;
+}
+
+.pagination .page-link:hover {
+    background-color: #00796B;
+    color: #FFD700; 
+}
+
+.form-check-highlight .form-check-input {
+    border-color: #40E0D0;
+    box-shadow: 0 0 5px rgba(64, 224, 208, 0.7);
+    transition: box-shadow 0.3s ease-in-out, background-color 0.3s ease-in-out;
+}
+
+.form-check-highlight .form-check-input:checked {
+    background-color: #40E0D0;
+    border-color: #40E0D0;
+    box-shadow: 0 0 8px rgba(64, 224, 208, 1); 
+}
+/*-----------------------------------------------------*/
+/* Estilos para los botones */
+.btn-volver {
+    background-color: #6A5ACD; 
+    border-color: #6A5ACD;
+    color: white;
+    transition: all 0.3s ease-in-out;
+}
+
+.btn-volver:hover {
+    background-color: #483D8B; 
+    border-color: #483D8B;
+    color: white; 
+}
+
+.btn-editar {
+    background-color: #62a892;
+    border-color: #62a892;;
+    color: white;
+    transition: all 0.3s ease-in-out;
+}
+
+.btn-editar:hover {
+    background-color: #4dba978f;
+    border-color: #4dba978f;
+    color: white;
+}
+
+.btn-borrar {
+    background-color: #b10664f5;
+    border-color: #8d1055a8;
+    color: white;
+    transition: all 0.3s ease-in-out;
+}
+
+.btn-borrar:hover {
+    background-color: #8d1055a8;
+    color: white;
+}
